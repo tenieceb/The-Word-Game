@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 
+// sets up the random seed and initializes the word list
 SecretWord::SecretWord() {
     wordList = {
         "apple", "brick", "crane", "drape", "flute", "glide", "haste", "index",

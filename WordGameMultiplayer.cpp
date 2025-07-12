@@ -2,6 +2,7 @@
 
 #include <iostream>
 
+// Uses WordGame and WordDisplay classes to implement multiplayer game mechanics 
 WordGameMultiplayer::WordGameMultiplayer(int maxTries)
     : WordGame(maxTries) 
 {

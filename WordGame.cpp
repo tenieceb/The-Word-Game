@@ -1,6 +1,7 @@
 #include "WordGame.h"
 #include <iostream>
 
+// Includes game rules and mechanics for the loop and gameplay
 WordGame::WordGame(int maxTries)
     : maxAttempts(maxTries)
 {

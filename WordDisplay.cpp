@@ -2,6 +2,7 @@
 #include <cctype>
 #include <string>
 
+// Constructor for WordDisplay
 std::string WordDisplay::createHint(const std::string& userGuess, const std::string& secretWord) const {
     std::string hint = "";
 

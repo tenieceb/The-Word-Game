@@ -19,9 +19,9 @@ The language used was c++, with the standard library for input/output streams, v
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://cplusplus.com)
-- [Web Site Name](http://cppreference.com)
-- [Web Site Name](http://learn.microsoft.com/en-us/visualstudio/?view=vs-2022)
+- [Web Site Name](https://cplusplus.com)
+- [Web Site Name](https://cppreference.com)
+- [Web Site Name](https://learn.microsoft.com/en-us/visualstudio/?view=vs-2022)
 
 # Future Work
 
