@@ -1,0 +1,86 @@
+﻿# The Word Game - Pseudocode
+
+## MAIN PROGRAM
+-----------------------------------
+- Initialize random number generator
+- Show "Welcome to The Word Game"
+- Ask: "Are you ready to play? Y/N"
+
+WHILE player wants to play:
+    IF player chooses single-player:
+        - Create WordGame object
+    ELSE IF player chooses multiplayer:
+        - Create WordGameMultiplayer object
+    - Call play() method
+
+Show "See you next time!" at end of game
+
+
+## SecretWord CLASS
+-----------------------------------
+DATA:
+  - wordList: vector of strings
+
+METHODS:
+  - Constructor:
+      - Fill wordList with possible words
+  - getRandomWord():
+      - Return random word from wordList
+
+
+## WordDisplay CLASS
+-----------------------------------
+METHODS:
+  - createHint(userWord, secretWord):
+      - For each letter:
+          IF letter matches correct position:
+              add uppercase letter
+          ELSE IF letter is in secret word:
+              add lowercase letter
+          ELSE:
+              add "_"
+      - Return hint string
+
+
+## WordGame CLASS -- has the game mechanics
+-----------------------------------
+DATA:
+  - secretWord: string
+  - maxAttempts: int
+  - display: WordDisplay
+  - secret: SecretWord
+  - rulesText: string
+
+METHODS:
+  - Constructor:
+      - Get random secret word
+      - Set maxAttempts to 6
+      - Define rulesText
+  - getRulesText():
+      - Return rulesText
+  - play():
+      - Show rulesText
+      - attempts = 0
+      WHILE attempts < maxAttempts:
+          - Get user guess
+          - IF guess length invalid → show error → ask again
+          - Show hint using createHint()
+          - IF guess == secretWord:
+              - Show success message
+              - RETURN
+          - attempts++
+      - If out of attempts → show correct word
+
+
+## WordGameMultiplayer CLASS (inherits WordGame) - multiplayer game mechanics
+-----------------------------------
+Overrides play():
+  - Show multiplayer rules text
+  - Player 1 enters secret word
+  - Add blank lines to hide word
+  - Player 2 guesses using same logic as WordGame
+  - Win/lose messages same as single-player
+
+
+## END
+-----------------------------------

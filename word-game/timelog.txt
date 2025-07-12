@@ -1,0 +1,35 @@
+Date: 7-1-25
+Type: Research
+Description: Researched C++ https://cplusplus.com/doc/tutorial/
+time: 11 mins
+
+Date: 7-7-25
+Type: Research
+Description: Researched C++ https://cplusplus.com/doc/tutorial/
+time: 60 minutes
+
+Date: 07-09-2025
+Type: Set up Visual Studio
+Description: I chose to use Visual Studio instead of Visual Studio Code because it is more formulated to better support C++. I had to update and install  “Desktop development with C++” workload.
+Time: 30 minutes
+
+
+Date: 7-9-225
+Type: Set up Folder and files
+Description: Making sure I have the file and folder set up so the program will run when I am done programming it. I also linked it to a github repository
+time: 30 mins
+
+Date: 7-9-2025
+Type: Pseudo Coding
+Description: Typed up pseudo code.
+time: 20 minutes
+
+Date: 07-12-2025
+Type: Coding
+Desceription: Wrote the program and debugged errors. 
+time: 4 hours
+
+Date: 7-12-2025
+Type: Drafting README.md
+Description: Wrote up README.md file
+Time: 15 mins
