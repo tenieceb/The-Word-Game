@@ -6,7 +6,7 @@ For this project, I developed a Wordle-inspired word guessing game in C++ to dee
 The purpose of writing this program was, not only to learn C++, but to practice designing object-oriented code, handle user input, implement game logic, and manage state across multiple game rounds. It helped me explore topics like virtual functions and code reuse through inheritance by building both single-player and multiplayer modes.
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=gUKI_JnFWpE)
 
 # Development Environment
 
@@ -19,9 +19,9 @@ The language used was c++, with the standard library for input/output streams, v
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](https://cplusplus.com)
-- [Web Site Name](https://cppreference.com)
-- [Web Site Name](https://learn.microsoft.com/en-us/visualstudio/?view=vs-2022)
+- [cplusplus.com](https://cplusplus.com)
+- [cppreference.com](https://cppreference.com)
+- [Microsoft Learn: Visual Studio IDE](https://learn.microsoft.com/en-us/visualstudio/?view=vs-2022)
 
 # Future Work
 
